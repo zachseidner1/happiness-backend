@@ -74,7 +74,7 @@ class User(db.Model):
         """
         Verifies the password of a user
         """
-        return bcrypt.checkpw(password.encode("utf8"), self.password)
+        return bcrypt.checkpw(password.encode("utf8"), self.password.encode("utf8"))
 
     def _urlsafe_base_64(self):
         """
