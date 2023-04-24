@@ -17,7 +17,7 @@ class Config:
     # Security measures
     SECURITY_PASSWORD_SALT = os.environ.get("SECURITY_PASSWORD_SALT")
     SECRET_KEY = os.environ.get("SECRET_KEY")
-    SERVER_NAME = "happiness-qfvoiwgqdq-ue.a.run.app"
+    SERVER_NAME = "happiness-app-backend.herokuapp.com"
 
     # Email sending
     MAIL_SERVER = "smtp.gmail.com"
