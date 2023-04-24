@@ -1,2 +1,0 @@
-FLASK_APP=happiness_backend.py
-FLASK_DEBUG=1
