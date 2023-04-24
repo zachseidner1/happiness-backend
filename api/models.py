@@ -200,7 +200,7 @@ class Happiness(db.Model):
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     user_id = db.Column(db.Integer, db.ForeignKey("user.id"))
     value = db.Column(db.Float)
-    comment = db.Column(db.String(700))
+    comment = db.Column(db.String)
     timestamp = db.Column(db.DateTime)
 
     def __init__(self, **kwargs):
